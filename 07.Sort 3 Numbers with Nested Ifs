@@ -1,1 +1,26 @@
-233
+using System;
+					
+	public class Sort3Nums
+{
+		public static void Main()
+	{			
+		double firstNum = double.Parse(Console.ReadLine());
+		double secondNum = double.Parse(Console.ReadLine());
+		double thirdNum = double.Parse(Console.ReadLine());
+		
+		double max = Math.Max(Math.Max(firstNum,secondNum),thirdNum);
+		double min = Math.Min(Math.Min(firstNum,secondNum),thirdNum);
+			if (firstNum<max || firstNum>min)
+			{
+				Console.WriteLine("{0] {1} {2}",max,firstNum,min);
+			}
+			else if (secondNum<max || secondNum>min)
+			{
+				Console.WriteLine("{0] {1} {2}",max,secondNum,min);
+			}
+			else if (thirdNum<max || thirdNum>min)
+			{
+				Console.WriteLine("{0] {1} {2}",max,thirdNum,min);
+			}
+	}
+}
