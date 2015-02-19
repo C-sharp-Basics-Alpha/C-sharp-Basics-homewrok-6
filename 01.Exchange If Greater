@@ -1,0 +1,18 @@
+using System;
+					
+	public class ExchangeIfGreater
+{
+		public static void Main()
+	{
+		  double firstNum = double.Parse(Console.ReadLine());
+		  double secondNum = double.Parse(Console.ReadLine());
+			if (firstNum >= secondNum)
+			{
+				Console.WriteLine(secondNum + " " + firstNum);
+			}
+			else
+			{
+				Console.WriteLine(firstNum + " " + secondNum);
+			}
+	}
+}
