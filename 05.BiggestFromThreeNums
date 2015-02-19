@@ -1,6 +1,6 @@
 using System;
 					
-	public class MultiplicationSign
+	public class BiggestFromThreeNums
 {
 		public static void Main()
 	{			
